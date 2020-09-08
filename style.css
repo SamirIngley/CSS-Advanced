@@ -1,0 +1,17 @@
+.container {
+  padding: 100px;
+  background-color: lightblue;
+}
+.container .box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(0);
+  transition: 400ms;
+}
+.container .box-1:hover {
+  transform: rotate(45deg);
+  background-color: blueviolet;
+}
+
+/*# sourceMappingURL=style.css.map */

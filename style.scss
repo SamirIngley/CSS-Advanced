@@ -1,0 +1,22 @@
+
+// Sass will automatically combine the outer rule’s selector with the inner rule’s.
+
+.container { 
+    padding: 100px;
+    background-color: lightblue;
+
+    .box-1 {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transform: rotate(0);
+      transition: 400ms;
+  
+    }
+  
+    .box-1:hover {
+      transform: rotate(45deg);
+      background-color: blueviolet;
+    }
+  }
+  
